@@ -1,4 +1,45 @@
-h1{
-    font-family: 'Big Noodle Titling', Arial, Helvetica, sans-serif;
-    font-size: 100px;
+/* BIG NOODLE FONT */
+@font-face {
+    font-family: Big Noodle Titling;
+    src: url(/fonts/big-noodle-too/big_noodle_titling_oblique.ttf);
+    font-style: oblique;
+}
+@font-face {
+    font-family: Big Noodle Titling;
+    src: url(/fonts/big-noodle-too/big_noodle_titling.ttf);
+    font-style: normal
+}
+
+/* CONFIG FONT */
+@font-face {
+    font-family: Config;
+    src: url(fonts/config/Config-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Config;
+    src: url(fonts/config/Config-Medium.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Config;
+    src: url(fonts/config/Config-Bold.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+html{
+    background-color: #282828;
+}
+
+main {
+    font-family: 'Config', Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
 }
