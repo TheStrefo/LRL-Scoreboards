@@ -1,40 +1,6 @@
-/* BIG NOODLE FONT */
-@font-face {
-    font-family: Big Noodle Titling;
-    src: url(/fonts/big-noodle-too/big_noodle_titling_oblique.ttf);
-    font-style: oblique;
-}
-@font-face {
-    font-family: Big Noodle Titling;
-    src: url(/fonts/big-noodle-too/big_noodle_titling.ttf);
-    font-style: normal
-}
-
-/* CONFIG FONT */
-@font-face {
-    font-family: Config;
-    src: url(fonts/config/Config-Regular.otf);
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Config;
-    src: url(fonts/config/Config-Medium.otf);
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Config;
-    src: url(fonts/config/Config-Bold.otf);
-    font-weight: 700;
-    font-style: normal;
-}
-
 
 html{
-    background: linear-gradient(135deg, rgb(96, 124, 158), rgb(179, 191, 216));
+    background: linear-gradient(135deg, hsl(213, 24%, 50%), rgb(179, 191, 216));
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -55,7 +21,7 @@ div {
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 25px hsla(213, 24%, 25%, 0.5);
     text-align: center;
     margin: 20px 10px
 }
