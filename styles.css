@@ -19,7 +19,7 @@
     src: url(./fonts/config/Config-Medium.otf) format("opentype");
 }
 @font-face {
-    font-family: configSemiBold;
+    font-family: configSemibold;
     src: url(./fonts/config/Config-SemiBold.otf) format("opentype");
 }
 @font-face {
@@ -39,12 +39,36 @@ html{
     height: 100%;
 }
 
-div {
+div h1{
     font-family: configBold, serif;
-    color: white;
-    text-transform: uppercase;
-    font-size: 50px;
-    margin: 20px 10px;
+    color: white; 
+    font-size: 60px;
+    margin: 20px 20px;
+}
+div h2{
+    font-family: configMedium, serif;
+    color: white; 
+    font-size: 40px;
+    margin: 20px 20px;
+}
+div h3{
+    font-family: configSemibold, serif;
+    color: white; 
+    font-size: 20px;
+    margin: 20px 20px;
+}
+div p{
+    font-family: configLight, serif;
+    color: white; 
+    font-size: 20px;
+    margin: 20px 20px;
+}
+.caption{
+    font-family: configThin, serif;
+    color: rgba(255, 255, 255, 0.5); 
+    font-size: 17px;
+    margin: 20px 20px;
+    font-style: italic;
 }
 
 .glass{
@@ -61,7 +85,6 @@ div {
 main h1{
     font-family: noodleOblique, serif;
     color: white;
-    text-transform: uppercase;
     font-size: 100px;
     text-shadow: rgba(0, 0, 0, 0.25) 10px 10px 10px;
     text-align: center;
