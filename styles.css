@@ -34,12 +34,40 @@
 
 
 html{
-    background-color: #282828;
+    background: linear-gradient(135deg, rgb(96, 124, 158), rgb(179, 191, 216));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
-main {
+div {
     font-family: 'Config', Arial, Helvetica, sans-serif;
     color: white;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
+    font-size: 50px;
+    margin: 20px 10px;
+}
+
+.glass{
+    background: linear-gradient(10deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 20px 10px
+}
+
+main h1{
+    font-family: 'Big Noodle Titling', Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: oblique;
+    text-transform: uppercase;
+    font-size: 100px;
+    letter-spacing: 4px;
+    text-shadow: rgba(0, 0, 0, 0.25) 10px 10px 10px;
+    text-align: center;
+    margin: 0 auto;
 }
