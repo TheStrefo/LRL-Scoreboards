@@ -43,32 +43,41 @@ div h1{
     font-family: configBold, serif;
     color: white; 
     font-size: 60px;
-    margin: 20px 20px;
+    margin: 5px 20px;
 }
 div h2{
     font-family: configMedium, serif;
     color: white; 
     font-size: 40px;
-    margin: 20px 20px;
+    margin: 15px 20px;
 }
 div h3{
     font-family: configSemibold, serif;
     color: white; 
     font-size: 20px;
-    margin: 20px 20px;
+    margin: 5x 20px;
 }
 div p{
     font-family: configLight, serif;
     color: white; 
     font-size: 20px;
-    margin: 20px 20px;
+    margin: 5px 20px;
 }
 .caption{
     font-family: configThin, serif;
     color: rgba(255, 255, 255, 0.5); 
     font-size: 17px;
-    margin: 20px 20px;
+    margin: 0px 20px 20px 20px;
     font-style: italic;
+}
+
+input{
+    font-family: configThin, serif;
+    padding: 5px 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: linear-gradient(-10deg, rgb(255, 255, 255), rgba(255,255,255,0.3));
+    font-size: 20px;
 }
 
 .glass{
@@ -78,7 +87,7 @@ div p{
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0px 0px 25px hsla(213, 24%, 25%, 0.5);
-    text-align: center;
+    text-align: left;
     margin: 20px 10px
 }
 
@@ -86,7 +95,6 @@ main h1{
     font-family: noodleOblique, serif;
     color: white;
     font-size: 100px;
-    text-shadow: rgba(0, 0, 0, 0.25) 10px 10px 10px;
     text-align: center;
     margin: 0 auto;
     letter-spacing: 6px;
